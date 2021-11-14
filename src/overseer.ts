@@ -12,7 +12,7 @@ export class ServiceOverseer {
     private phone: string
   ) {}
 
-  get number() {
+  get phoneNumber() {
     return this.phone;
   }
 
@@ -71,9 +71,6 @@ export class ServiceOverseer {
       }
     }
   }
-  // async next() {
-  //   await this.
-  // }
 
   async done() {
     await Axios.get(BASE_URL, {

@@ -1,16 +1,22 @@
 {
-  "name": "sms-activate",
-  "version": "1.0.0",
+  "name": "@isor/sink",
+  "version": "1.0.1-beta",
   "description": "Library for working with sms-activate.ru",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepublish": "npm run build",
-    "build": "tsc",
+    "build": "tsc"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IvanChikishev/Sms-activator"
+  },
+  "homepage": "https://github.com/IvanChikishev/Sms-activator",
+  "private": false,
+  "keywords": ["sms", "activate", "smsactivate"],
+  "author": "Ivan Chikishev",
   "license": "ISC",
   "devDependencies": {
     "prettier": "^2.4.1",

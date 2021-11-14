@@ -47,7 +47,7 @@ export class Sink {
     };
   }
 
-  async lease() {
+  async lease(): Promise<ServiceOverseer> {
     const response = await Axios.get(BASE_URL, {
       params: {
         api_key: this.accessToken,
