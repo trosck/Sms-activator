@@ -1,6 +1,6 @@
 {
   "name": "@trosckey/sms-activator",
-  "version": "1.0.2-beta",
+  "version": "1.0.3-beta",
   "description": "Library for working with sms-activate.ru",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
