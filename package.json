@@ -1,19 +1,18 @@
 {
-  "name": "@isor/sink",
+  "name": "@trosck/sms-activator",
   "version": "1.0.2-beta",
   "description": "Library for working with sms-activate.ru",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "prepublish": "npm run build",
     "build": "tsc"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/IvanChikishev/Sms-activator"
+    "url": "https://github.com/trosck/Sms-activator"
   },
-  "homepage": "https://github.com/IvanChikishev/Sms-activator",
+  "homepage": "https://github.com/trosck/Sms-activator",
   "private": false,
   "keywords": ["sms", "activate", "smsactivate"],
   "author": "Ivan Chikishev",
