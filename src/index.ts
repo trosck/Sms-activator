@@ -61,6 +61,8 @@ export class Sink {
 
     Equal(targetId);
 
+    console.log(`[SMS] Leasing phone nubmber with status ${targetId}`);
+
     return new ServiceOverseer(this.accessToken, id, phone);
   }
 }
