@@ -1,5 +1,5 @@
 {
-  "name": "@trosck/sms-activator",
+  "name": "@trosckey/sms-activator",
   "version": "1.0.2-beta",
   "description": "Library for working with sms-activate.ru",
   "main": "dist/index.js",
