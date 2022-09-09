@@ -62,6 +62,8 @@ export class ServiceOverseer {
       const [targetId] = response.data.split(":");
 
       Equal(targetId);
+      
+      console.log(`[SMS] Message received with status ${targetId}`);
 
       if (targetId === "STATUS_OK") {
         clearTimeout(defender);
